@@ -1,0 +1,6 @@
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Application\obj\Debug\net8.0\Application.sourcelink.json
