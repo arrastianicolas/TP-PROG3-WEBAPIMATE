@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|d:\\santi\\facultad\\2do a\u00F1o\\cuatrimestre 1\\programacion 3\\tpi\\tp-prog3-webapimate\\src\\domain\\entities\\sysadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\sysadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SysAdmin.cs",
+              "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\SysAdmin.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\SysAdmin.cs",
+              "ToolTip": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\SysAdmin.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\SysAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T18:26:44.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

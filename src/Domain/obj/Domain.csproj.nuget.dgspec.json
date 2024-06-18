@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj": {}
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj": {
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\obj\\",
+        "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
+        "outputPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

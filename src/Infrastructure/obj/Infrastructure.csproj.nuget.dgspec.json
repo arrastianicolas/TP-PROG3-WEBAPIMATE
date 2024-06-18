@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj": {
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\obj\\",
+        "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
+        "outputPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj"
+              "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj": {
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\obj\\",
+        "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
+        "outputPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +114,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
+        "outputPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +164,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj"
+              "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj": {
+                "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj"
               }
             }
           }
@@ -173,23 +185,7 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.6, )"
             }
@@ -210,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
