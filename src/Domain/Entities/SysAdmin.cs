@@ -6,6 +6,7 @@ namespace Domain.Entities
     public class SysAdmin : User
     {
         [Key]
+
         public int Id { get; set; }
 
         public string UserName { get; set; }

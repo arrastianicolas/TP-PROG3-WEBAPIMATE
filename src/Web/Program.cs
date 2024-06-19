@@ -1,26 +1,30 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
+
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+
 using Infrastructure.Data; // Asegúrate de ajustar el espacio de nombres según la ubicación real de tu DbContext
-using Application.Services;
+
+using Microsoft.Data.Sqlite;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar servicios al contenedor.
 builder.Services.AddControllers();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddScoped<CartService>(); // Agrega el servicio del carrito
-
-// Configurar Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen();
+//builder.Services.AddScoped<CartService>(); // Agrega el servicio del carrito
+
+
+string connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"]!;
+var connection = new SqliteConnection(connectionString);
+connection.Open();
+
+using (var command = connection.CreateCommand()) 
 {
-    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Your API", Version = "v1" });
-});
+    command.CommandText = "PRAGMA journal_mode = DELETE;";
+    command.ExecuteNonQuery();
+}
+builder.Services.AddDbContext<ApplicationDbContext>(dbContextOptions => dbContextOptions.UseSqlite(connection));
 
 var app = builder.Build();
 
@@ -28,7 +32,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Your API v1"));
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
