@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\WebApiMates\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\models\\requests\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\requests\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\productrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\productrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,52 +27,64 @@
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\sysadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\icustomauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\infrastructure\\data\\migrations\\20240618233549_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\migrations\\20240618233549_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimates\\src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -90,177 +102,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 20,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\UserService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:52:17.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:51:36.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:49:35.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepositoryEf.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:48:53.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:26:26.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:25:27.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:56:22.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductRepositoryEf.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAUwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:54:52.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20240618233549_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:39:17.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\appsettings.json",
-              "RelativeToolTip": "src\\Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T23:26:32.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Cart.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAUwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:20:26.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:55:10.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\Program.cs",
-              "RelativeToolTip": "src\\Web\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:44:10.816Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -283,13 +126,221 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICustomAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\ICustomAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:59:31.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "RelativeToolTip": "src\\Application\\Models\\Requests\\AuthenticationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:58:14.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutenticacionService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\AutenticacionService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Services\\AutenticacionService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Services\\AutenticacionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:55:53.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:52:17.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:51:36.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "src\\Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:49:35.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepositoryEf.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:48:53.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "src\\Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:26:26.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAwwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:25:27.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "src\\Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:56:22.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepositoryEf.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAiwCkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:54:52.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "20240618233549_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\Migrations\\20240618233549_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:39:17.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\appsettings.json",
+              "RelativeToolTip": "src\\Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T23:26:32.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "src\\Domain\\Entities\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T23:20:26.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:55:10.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Web\\Program.cs",
+              "RelativeToolTip": "src\\Web\\Program.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowFQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:44:10.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "src\\Application\\Application.csproj",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Application\\Application.csproj",
               "RelativeToolTip": "src\\Application\\Application.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAARAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-05T17:22:29.407Z",
               "EditorCaption": ""
@@ -302,7 +353,7 @@
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Client.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Client.cs",
               "RelativeToolTip": "src\\Domain\\Entities\\Client.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T17:21:07.144Z",
               "EditorCaption": ""
@@ -315,7 +366,7 @@
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\SysAdmin.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\SysAdmin.cs",
               "RelativeToolTip": "src\\Domain\\Entities\\SysAdmin.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAQwAoAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAQwAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T17:20:49.543Z",
               "EditorCaption": ""
@@ -328,40 +379,40 @@
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Seller.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Seller.cs",
               "RelativeToolTip": "src\\Domain\\Entities\\Seller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T17:20:23.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\User.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "src\\Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T17:20:01.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Product.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Product.cs",
               "RelativeToolTip": "src\\Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T17:19:32.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "src\\Domain\\Domain.csproj",
