@@ -15,6 +15,6 @@ namespace Domain.Entities
         public string Password { get; set; }
         public string Email { get; set; }
 
-        public ICollection<Cart> Cars { get; set; } 
+        public ICollection<Cart> Carts { get; set; } 
     }
 }

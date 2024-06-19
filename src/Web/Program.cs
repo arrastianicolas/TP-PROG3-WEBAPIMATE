@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Infrastructure.Data; // Asegúrate de ajustar el espacio de nombres según la ubicación real de tu DbContext
 
 using Microsoft.Data.Sqlite;
+using Application.Interfaces;
+using Application.Services;
+using Domain.Interfaces;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +16,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //builder.Services.AddScoped<CartService>(); // Agrega el servicio del carrito
-
-
+#region Repositories
+builder.Services.AddScoped<IProductRepository, ProductRepositoryEf>();
+builder.Services.AddScoped<IUserRepository, UserRepositoryEf>();
+#endregion
+#region Services
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserService, UserService>();
+#endregion
 string connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"]!;
 var connection = new SqliteConnection(connectionString);
 connection.Open();
