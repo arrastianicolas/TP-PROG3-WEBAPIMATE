@@ -15,5 +15,18 @@ namespace Infrastructure.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<User>()
+                .HasDiscriminator<string>("UserType")
+                .HasValue<Client>("Client")
+                .HasValue<SysAdmin>("Admin")
+                .HasValue<Seller>("Seller");
+
+           
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

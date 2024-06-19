@@ -42,7 +42,10 @@ namespace Infrastructure.Data
         {
             return _context.Users.Find(id);
         }
-
+        public User GetByUserName(string name) 
+        {
+            return _context.Users.SingleOrDefault(p => p.UserName == name);
+        }
         public void UpdateUser(User user)
         {
             _context.Users.Update(user);

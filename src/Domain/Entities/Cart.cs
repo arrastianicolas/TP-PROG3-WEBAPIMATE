@@ -10,8 +10,8 @@ namespace Domain.Entities
         [Key]
         public int Id { get; set; }
 
-        public ICollection<Product> Products { get; set; }
-
+        public ICollection<Product> Products { get; set; } = new List<Product>();
+        
         public int ClientId { get; set; } 
         
  
