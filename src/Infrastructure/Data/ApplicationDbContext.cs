@@ -24,7 +24,7 @@ namespace Infrastructure.Data
                 .HasValue<SysAdmin>("Admin")
                 .HasValue<Seller>("Seller");
 
-           
+            
 
             base.OnModelCreating(modelBuilder);
         }

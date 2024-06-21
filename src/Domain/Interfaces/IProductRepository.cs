@@ -7,13 +7,9 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IProductRepository
+    public interface IProductRepository : IRepositoryBase<Product>
     {
-        public List<Product> GetAll(); //muestra todos los productos
-        public Product GetById(int id);
-        public Product GetByName(string name);
-        public void AddProduct(Product product);
-        public void UpdateProduct(Product product);
-        public void DeleteProduct(int id);
+
+        Product GetByName(string name);
     }
 }

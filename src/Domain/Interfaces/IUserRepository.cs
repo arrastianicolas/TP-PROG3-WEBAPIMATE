@@ -9,12 +9,7 @@ namespace Domain.Interfaces
 {
     public interface IUserRepository
     {
-        User GetById(int id);
-        User GetByUserName(string userName);
-        void AddUser(User user);
-        void UpdateUser(User user);
-        void DeleteUser(int id);
-        List<User> GetAllUsers();
-
+        User GetByUsername(string username);
+        IEnumerable<User> GetUsersByType(string userType);
     }
 }

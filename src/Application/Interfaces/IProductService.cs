@@ -9,11 +9,11 @@ namespace Application.Interfaces
 {
     public interface IProductService
     {
-        void AddProduct(Product product, int sellerId);
-        void DeleteProduct(int id);
-        List<Product> GetAll();
-        Product GetById(int id);
-        Product GetByName(string name);
-        void UpdateProduct(Product product);
+        Task AddProductAsync(Product product, int sellerId);
+        Task DeleteProductAsync(int id);
+        Task<List<Product>> GetAllAsync();
+        Task<Product> GetByIdAsync(int id);
+        Product GetByNameAsync(string name);
+        Task UpdateProductAsync(Product product);
     }
 }
