@@ -30,7 +30,7 @@ namespace Infrastructure.Services
             if (string.IsNullOrEmpty(authenticationRequest.UserName) || string.IsNullOrEmpty(authenticationRequest.Password))
                 return null;
 
-            var user = _userRepository.GetByUserName(authenticationRequest.UserName);
+            var user = _userRepository.GetByUsername(authenticationRequest.UserName);
 
             if (user == null) return null;
 

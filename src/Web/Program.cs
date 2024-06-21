@@ -12,6 +12,8 @@ using System.Reflection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Infrastructure.Services;
+using Azure;
+using Domain.Entities;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -53,12 +55,16 @@ builder.Services.AddSwaggerGen(setupAction =>
 #region Repositories
 builder.Services.AddScoped<IProductRepository, ProductRepositoryEf>();
 builder.Services.AddScoped<IUserRepository, UserRepositoryEf>();
+builder.Services.AddScoped<IRepositoryBase<User>, EfRepository<User>>();
+//builder.Services.AddScoped<IRepositoryBase<>, EfRepository<>>();
+//builder.Services.AddScoped<IRepositoryBase<>, EfRepository<>>();
 
 #endregion
 #region Services
-builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IUserService, UserService>();
+//builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ISysAdminService , SysAdminService>();   
 builder.Services.AddScoped<ICustomAuthenticationService, AutenticacionService>();
+
 #endregion
 string connectionString = builder.Configuration["ConnectionStrings:DefaultConnection"]!;
 var connection = new SqliteConnection(connectionString);

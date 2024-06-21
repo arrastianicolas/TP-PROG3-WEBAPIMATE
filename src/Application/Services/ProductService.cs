@@ -9,20 +9,22 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class ProductService : IProductService
+    public class ProductService : IProductService 
     {
+        private readonly IRepositoryBase<Product> _repository;
+        private readonly IRepositoryBase<User> _userRepository;
         private readonly IProductRepository _productRepository;
-        private readonly IUserRepository _userRepository;
 
-        public ProductService(IProductRepository productRepository, IUserRepository userRepository)
+        public ProductService(IRepositoryBase<Product> repositoryBase, IRepositoryBase<User> userRepository, IProductRepository productRepository)
         {
-            _productRepository = productRepository;
+            _repository = repositoryBase;
             _userRepository = userRepository;
+            _productRepository = productRepository;
         }
 
-        public void AddProduct(Product product, int userId)
+        public async Task AddProductAsync(Product product, int userId)
         {
-            var user = _userRepository.GetById(userId);
+            var user = await _userRepository.GetByIdAsync(userId);
             if (user == null)
             {
                 throw new ArgumentException("User not found");
@@ -34,32 +36,32 @@ namespace Application.Services
             }
 
             product.UserId = userId; // Asignar el ID del usuario al producto
-            _productRepository.AddProduct(product);
+            await _repository.AddAsync(product);
         }
 
-        public void DeleteProduct(int id)
+        public async Task DeleteProductAsync(int id)
         {
-            _productRepository.DeleteProduct(id);
+            await _repository.DeleteAsync(id);
         }
 
-        public List<Product> GetAll()
+        public async Task<List<Product>> GetAllAsync()
         {
-            return _productRepository.GetAll();
+            return await _repository.ListAsync();
         }
 
-        public Product GetById(int id)
+        public async Task<Product> GetByIdAsync(int id)
         {
-            return _productRepository.GetById(id);
+            return await _repository.GetByIdAsync(id);
         }
 
-        public Product GetByName(string name)
+        public Product GetByNameAsync(string name)
         {
-            return _productRepository.GetByName(name);
+            return  _productRepository.GetByName(name);
         }
 
-        public void UpdateProduct(Product product)
+        public async Task UpdateProductAsync(Product product)
         {
-            _productRepository.UpdateProduct(product);
+            await _repository.UpdateAsync(product);
         }
     }
 

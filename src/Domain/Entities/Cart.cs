@@ -12,7 +12,7 @@ namespace Domain.Entities
 
         public ICollection<Product> Products { get; set; } = new List<Product>();
         
-        public int ClientId { get; set; } 
+        //public int ClientId { get; set; } 
         
  
     }

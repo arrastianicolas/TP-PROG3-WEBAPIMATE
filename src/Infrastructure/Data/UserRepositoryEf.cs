@@ -8,49 +8,21 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Data
 {
-    public class UserRepositoryEf : IUserRepository
+    public class UserRepositoryEf : EfRepository<User>, IUserRepository
     {
-        private readonly ApplicationDbContext _context;
+        public UserRepositoryEf(ApplicationDbContext context) : base(context) { }
 
-        public UserRepositoryEf(ApplicationDbContext context)
+        public User GetByUsername(string username)
         {
-            _context = context;
-        }
-
-        public void AddUser(User user)
-        {
-            _context.Users.Add(user);
-            _context.SaveChanges();
+            return _context.Users.SingleOrDefault(u => u.UserName == username);
         }
 
-        public void DeleteUser(int id)
+        public IEnumerable<User> GetUsersByType(string userType)
         {
-            var user = _context.Users.Find(id);
-            if (user != null)
-            {
-                _context.Users.Remove(user);
-                _context.SaveChanges();
-            }
+            return _context.Users.Where(u => u.UserType == userType).ToList();
         }
 
-        public List<User> GetAllUsers()
-        {
-            return _context.Users.ToList();
-        }
-
-        public User GetById(int id)
-        {
-            return _context.Users.Find(id);
-        }
-        public User GetByUserName(string name) 
-        {
-            return _context.Users.SingleOrDefault(p => p.UserName == name);
-        }
-        public void UpdateUser(User user)
-        {
-            _context.Users.Update(user);
-            _context.SaveChanges();
-        }
     }
 }
+
 
