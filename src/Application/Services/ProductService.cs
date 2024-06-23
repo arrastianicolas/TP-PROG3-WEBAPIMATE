@@ -1,4 +1,6 @@
 ﻿using Application.Interfaces;
+using Application.Models;
+using Application.Models.Requests;
 using Domain.Entities;
 using Domain.Interfaces;
 using System;
@@ -9,60 +11,82 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class ProductService : IProductService 
+    public class ProductService : IProductService
     {
-        private readonly IRepositoryBase<Product> _repository;
-        private readonly IRepositoryBase<User> _userRepository;
-        private readonly IProductRepository _productRepository;
+        private readonly IRepositoryBase<Product> _productRepository;
 
-        public ProductService(IRepositoryBase<Product> repositoryBase, IRepositoryBase<User> userRepository, IProductRepository productRepository)
+        public ProductService(IRepositoryBase<Product> productRepository)
         {
-            _repository = repositoryBase;
-            _userRepository = userRepository;
             _productRepository = productRepository;
         }
 
-        public async Task AddProductAsync(Product product, int userId)
+        public async Task<IEnumerable<ProductDto>> GetAllProducts()
         {
-            var user = await _userRepository.GetByIdAsync(userId);
-            if (user == null)
+            var products = await _productRepository.ListAsync();
+
+            if (products == null || !products.Any())
             {
-                throw new ArgumentException("User not found");
+                return new List<ProductDto>();
             }
 
-            if (user.UserType != "seller" && user.UserType != "admin")
+            var productDtos = ProductDto.CreateList(products);
+            return productDtos;
+        }
+
+        public async Task<ProductDto> GetProductById(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+
+            if (product == null)
             {
-                throw new UnauthorizedAccessException("User is not authorized to add products");
+                throw new Exception("Product not found.");
             }
 
-            product.UserId = userId; // Asignar el ID del usuario al producto
-            await _repository.AddAsync(product);
+            var productDto = ProductDto.Create(product);
+            return productDto;
         }
 
-        public async Task DeleteProductAsync(int id)
+        public async Task<Product> CreateProduct(ProductRequest productRequest)
         {
-            await _repository.DeleteAsync(id);
+            var product = new Product
+            {
+                Name = productRequest.Name,
+                Price = productRequest.Price,
+                Description = productRequest.Description,
+                UserId = productRequest.UserId
+            };
+
+            return await _productRepository.AddAsync(product);
         }
 
-        public async Task<List<Product>> GetAllAsync()
+        public async Task DeleteProduct(int id)
         {
-            return await _repository.ListAsync();
+            var product = await _productRepository.GetByIdAsync(id);
+
+            if (product == null)
+            {
+                throw new Exception("Product not found.");
+            }
+
+            await _productRepository.DeleteAsync(product);
         }
 
-        public async Task<Product> GetByIdAsync(int id)
+        public async Task UpdateProduct(int id, ProductRequest productRequest)
         {
-            return await _repository.GetByIdAsync(id);
+            var product = await _productRepository.GetByIdAsync(id);
+
+            if (product == null)
+            {
+                throw new Exception("Product not found.");
+            }
+
+            product.Name = productRequest.Name;
+            product.Price = productRequest.Price;
+            product.Description = productRequest.Description;
+            product.UserId = productRequest.UserId;
+
+            await _productRepository.UpdateAsync(product);
         }
 
-        public Product GetByNameAsync(string name)
-        {
-            return  _productRepository.GetByName(name);
-        }
-
-        public async Task UpdateProductAsync(Product product)
-        {
-            await _repository.UpdateAsync(product);
-        }
     }
-
 }

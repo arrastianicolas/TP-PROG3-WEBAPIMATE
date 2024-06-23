@@ -62,7 +62,7 @@ builder.Services.AddScoped<IRepositoryBase<User>, EfRepository<User>>();
 #endregion
 #region Services
 //builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<ISysAdminService , SysAdminService>();   
+builder.Services.AddScoped<IUserService , UserService>();   
 builder.Services.AddScoped<ICustomAuthenticationService, AutenticacionService>();
 
 #endregion
@@ -90,6 +90,13 @@ builder.Services.AddAuthentication("Bearer") //"Bearer" es el tipo de auntentica
         };
     }
 );
+// Configuración de políticas de autorización
+builder.Services.AddAuthorization(options => //Agregamos políticas para la autorización de los respectivos ENDPOINTS.
+{
+    options.AddPolicy("Admin", policy => policy.RequireClaim("usertype", "Admin"));
+    options.AddPolicy("Client", policy => policy.RequireClaim("usertype", "Client"));
+    options.AddPolicy("Admin&Seller", policy => policy.RequireClaim("usertype", "Admin", "Seller"));
+});
 
 var app = builder.Build();
 
