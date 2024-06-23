@@ -1,4 +1,6 @@
-﻿using Domain.Entities;
+﻿using Application.Models.Requests;
+using Application.Models;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +11,10 @@ namespace Application.Interfaces
 {
     public interface IProductService
     {
-        Task AddProductAsync(Product product, int sellerId);
-        Task DeleteProductAsync(int id);
-        Task<List<Product>> GetAllAsync();
-        Task<Product> GetByIdAsync(int id);
-        Product GetByNameAsync(string name);
-        Task UpdateProductAsync(Product product);
+        Task<IEnumerable<ProductDto>> GetAllProducts();
+        Task<ProductDto> GetProductById(int id);
+        Task<Product> CreateProduct(ProductRequest productRequest);
+        Task DeleteProduct(int id);
+        Task UpdateProduct(int id, ProductRequest productRequest);
     }
 }
