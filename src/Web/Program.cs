@@ -56,12 +56,13 @@ builder.Services.AddSwaggerGen(setupAction =>
 builder.Services.AddScoped<IProductRepository, ProductRepositoryEf>();
 builder.Services.AddScoped<IUserRepository, UserRepositoryEf>();
 builder.Services.AddScoped<IRepositoryBase<User>, EfRepository<User>>();
+builder.Services.AddScoped<IRepositoryBase<Product>, EfRepository<Product>>();  
 //builder.Services.AddScoped<IRepositoryBase<>, EfRepository<>>();
 //builder.Services.AddScoped<IRepositoryBase<>, EfRepository<>>();
 
 #endregion
 #region Services
-//builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserService , UserService>();   
 builder.Services.AddScoped<ICustomAuthenticationService, AutenticacionService>();
 

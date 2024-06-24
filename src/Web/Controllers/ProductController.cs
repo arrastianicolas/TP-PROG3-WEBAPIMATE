@@ -22,8 +22,9 @@ namespace Web.Controllers
         [HttpPost("[action]")]
         [Authorize("Admin&Seller")]
         public ActionResult<Product> CreateProduct([FromBody] ProductRequest productRequest) 
-        { 
-            var product = _productService.CreateProduct(productRequest);
+        {
+            var sellerId = int.Parse(User.Claims.First(c => c.Type == "id").Value); // Obtener el ID del vendedor del token JWT
+            var product = _productService.CreateProduct(productRequest , sellerId);
             return Ok(product);
         }
 
@@ -69,6 +70,6 @@ namespace Web.Controllers
             return Ok(products);
         }
         //falta el buscador por nombre...
-
+        
     }
 }
