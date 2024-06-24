@@ -17,5 +17,7 @@ namespace Domain.Entities
         public string Category { get; set; }
         public int UserId { get; set; }
 
+        public ICollection<SaleLine> SaleLines { get; set; }
+
     }
 }
