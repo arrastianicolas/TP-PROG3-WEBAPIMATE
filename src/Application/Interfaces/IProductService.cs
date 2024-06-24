@@ -13,7 +13,7 @@ namespace Application.Interfaces
     {
         Task<IEnumerable<ProductDto>> GetAllProducts();
         Task<ProductDto> GetProductById(int id);
-        Task<Product> CreateProduct(ProductRequest productRequest);
+        Task<Product> CreateProduct(ProductRequest productRequest , int sellerId);
         Task DeleteProduct(int id);
         Task UpdateProduct(int id, ProductRequest productRequest);
     }

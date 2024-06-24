@@ -13,7 +13,9 @@ namespace Application.Models.Requests
         public string Name { get; set; }
         [Required]
         public decimal Price { get; set; }
-        public string Description { get; set; }
-        public int UserId { get; set; }
+
+        public int StockAvailable { get; set; }
+        [Required]
+        public string Category { get; set; }
     }
 }

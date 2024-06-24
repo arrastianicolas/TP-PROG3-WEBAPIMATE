@@ -46,14 +46,15 @@ namespace Application.Services
             return productDto;
         }
 
-        public async Task<Product> CreateProduct(ProductRequest productRequest)
+        public async Task<Product> CreateProduct(ProductRequest productRequest, int sellerId)
         {
             var product = new Product
             {
                 Name = productRequest.Name,
                 Price = productRequest.Price,
-                Description = productRequest.Description,
-                UserId = productRequest.UserId
+                StockAvailable = productRequest.StockAvailable, 
+                Category = productRequest.Category,
+                UserId = sellerId
             };
 
             return await _productRepository.AddAsync(product);
@@ -82,8 +83,9 @@ namespace Application.Services
 
             product.Name = productRequest.Name;
             product.Price = productRequest.Price;
-            product.Description = productRequest.Description;
-            product.UserId = productRequest.UserId;
+            product.StockAvailable = productRequest.StockAvailable;
+            product.Category = productRequest.Category;
+           
 
             await _productRepository.UpdateAsync(product);
         }
