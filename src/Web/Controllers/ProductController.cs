@@ -30,26 +30,37 @@ namespace Web.Controllers
 
         [HttpPut("[action]/{id}")]
         [Authorize("Admin&Seller")]
-        public ActionResult UpdateProduct(int id , [FromBody] ProductRequest productRequest)
+        public async Task<ActionResult> UpdateProduct(int id, [FromBody] ProductRequest productRequest)
         {
             try
             {
-                _productService.UpdateProduct(id, productRequest);
+                var sellerId = int.Parse(User.Claims.First(c => c.Type == "id").Value);
+                await _productService.UpdateProduct(id, productRequest, sellerId);
                 return NoContent();
-
-            }catch (Exception ex) 
-            { 
-               return NotFound(ex.Message);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
             }
         }
+
         [HttpDelete("[action]/{id}")]
         [Authorize("Admin&Seller")]
-        public ActionResult DeleteProduct(int id) 
+        public async Task<ActionResult> DeleteProduct(int id)
         {
             try
             {
-                _productService.DeleteProduct(id); ;
+                var sellerId = int.Parse(User.Claims.First(c => c.Type == "id").Value);
+                await _productService.DeleteProduct(id, sellerId);
                 return NoContent();
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Forbid(ex.Message);
             }
             catch (Exception ex)
             {

@@ -60,7 +60,7 @@ namespace Application.Services
             return await _productRepository.AddAsync(product);
         }
 
-        public async Task DeleteProduct(int id)
+        public async Task UpdateProduct(int id, ProductRequest productRequest, int sellerId)
         {
             var product = await _productRepository.GetByIdAsync(id);
 
@@ -69,26 +69,36 @@ namespace Application.Services
                 throw new Exception("Product not found.");
             }
 
-            await _productRepository.DeleteAsync(product);
-        }
-
-        public async Task UpdateProduct(int id, ProductRequest productRequest)
-        {
-            var product = await _productRepository.GetByIdAsync(id);
-
-            if (product == null)
+            if (product.UserId != sellerId)
             {
-                throw new Exception("Product not found.");
+                throw new UnauthorizedAccessException("You are not authorized to update this product.");
             }
 
             product.Name = productRequest.Name;
             product.Price = productRequest.Price;
             product.StockAvailable = productRequest.StockAvailable;
             product.Category = productRequest.Category;
-           
 
             await _productRepository.UpdateAsync(product);
         }
+
+        public async Task DeleteProduct(int id, int sellerId)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+
+            if (product == null)
+            {
+                throw new Exception("Product not found.");
+            }
+
+            if (product.UserId != sellerId)
+            {
+                throw new UnauthorizedAccessException("You are not authorized to delete this product.");
+            }
+
+            await _productRepository.DeleteAsync(product);
+        }
+
 
     }
 }
