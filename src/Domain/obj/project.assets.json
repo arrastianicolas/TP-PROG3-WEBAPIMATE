@@ -2748,19 +2748,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Santi\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
-      "outputPath": "D:\\Santi\\FACULTAD\\2do AÑO\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2812,7 +2812,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

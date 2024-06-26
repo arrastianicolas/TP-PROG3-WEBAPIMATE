@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Infrastructure
-build_property.ProjectDir = D:\Santi\FACULTAD\2do AÑO\Cuatrimestre 1\PROGRAMACION 3\TPI\TP-PROG3-WEBAPIMATE\src\Infrastructure\
+build_property.ProjectDir = C:\Users\PC\source\repos\WebApiMate\TP-PROG3-WEBAPIMATE\src\Infrastructure\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
