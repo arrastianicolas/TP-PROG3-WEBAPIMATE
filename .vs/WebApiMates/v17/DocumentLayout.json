@@ -1,8 +1,11 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|d:\\santi\\facultad\\2do a\u00F1o\\cuatrimestre 1\\programacion 3\\tpi\\tp-prog3-webapimate\\src\\domain\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|d:\\santi\\facultad\\2do a\u00F1o\\cuatrimestre 1\\programacion 3\\tpi\\tp-prog3-webapimate\\src\\application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -16,122 +19,8 @@
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|d:\\santi\\facultad\\2do a\u00F1o\\cuatrimestre 1\\programacion 3\\tpi\\tp-prog3-webapimate\\src\\domain\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\saleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|d:\\santi\\facultad\\2do a\u00F1o\\cuatrimestre 1\\programacion 3\\tpi\\tp-prog3-webapimate\\src\\domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\models\\requests\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\requests\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\services\\autenticacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\infrastructure\\data\\productrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\productrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\infrastructure\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23235D6F-4522-4310-BA69-885783A66A5B}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\data\\userrepositoryef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8EB38888-8660-466C-9E06-2BD84378CD05}|src\\Domain\\Domain.csproj|solutionrelative:src\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{900581C3-4586-4266-9F2C-D9BC76E3D456}|src\\Application\\Application.csproj|solutionrelative:src\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|c:\\users\\pc\\source\\repos\\webapimate\\tp-prog3-webapimate\\src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2A2522F5-98FD-4EBE-ABDD-E4FC7026F3D0}|src\\Web\\Web.csproj|solutionrelative:src\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 19dd4fb653abb829de8e07f40e1dce147fc23542
     }
   ],
   "DocumentGroupContainers": [
@@ -141,12 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ISalesService.cs",
               "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Interfaces\\ISalesService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Interfaces\\ISalesService.cs",
@@ -154,170 +42,24 @@
               "RelativeToolTip": "src\\Application\\Interfaces\\ISalesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T03:03:53.16Z",
-              "EditorCaption": ""
-=======
-          "SelectedChildIndex": 15,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\ClientController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\ClientController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\ClientController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\ClientController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T02:14:46.145Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SellerController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\SellerController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\SellerController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\SellerController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\SellerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T02:04:17.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Client.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Client.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:30:57.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\UserController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAqwB0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:46:06.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRequest.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\Requests\\ProductRequest.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\Requests\\ProductRequest.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\Requests\\ProductRequest.cs",
-              "RelativeToolTip": "src\\Application\\Models\\Requests\\ProductRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:34:11.416Z"
+              "WhenOpened": "2024-06-24T03:03:53.16Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:20:05.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\UserService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAADwv0sAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:18:33.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\UserDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\UserDto.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\UserDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\UserDto.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAxwCAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:15:05.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\ProductDto.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Models\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Models\\ProductDto.cs",
-              "RelativeToolTip": "src\\Application\\Models\\ProductDto.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswBUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T02:05:58.682Z"
->>>>>>> 19dd4fb653abb829de8e07f40e1dce147fc23542
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-<<<<<<< HEAD
               "Title": "SalesService.cs",
               "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\SalesService.cs",
               "RelativeDocumentMoniker": "src\\Application\\Services\\SalesService.cs",
               "ToolTip": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\SalesService.cs",
               "RelativeToolTip": "src\\Application\\Services\\SalesService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAAAAAAAA",
-=======
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "src\\Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwFwAAAAFAAAA",
->>>>>>> 19dd4fb653abb829de8e07f40e1dce147fc23542
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T03:03:09.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Product.cs",
@@ -325,12 +67,11 @@
               "RelativeToolTip": "src\\Domain\\Entities\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T02:59:09.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T02:59:09.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SaleLine.cs",
               "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\SaleLine.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\SaleLine.cs",
@@ -340,190 +81,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T02:55:56.071Z",
               "EditorCaption": ""
-=======
-              "DocumentIndex": 8,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAuwEoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T01:53:54.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\RepositoryBase.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\RepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:20:59.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "src\\Web\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T18:22:15.75Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AutenticacionService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Services\\AutenticacionService.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Services\\AutenticacionService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Services\\AutenticacionService.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Services\\AutenticacionService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T17:55:53.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:49:35.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserRepositoryEf.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\UserRepositoryEf.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:48:53.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "src\\Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "src\\Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T00:26:26.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "src\\Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:56:22.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductRepositoryEf.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ProductRepositoryEf.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:54:52.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\appsettings.json",
-              "RelativeToolTip": "src\\Web\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T23:26:32.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "..\\..\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "..\\..\\WebApiMates\\src\\Domain\\Entities\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T23:20:26.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:55:10.06Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Web\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Web\\Program.cs",
-              "RelativeToolTip": "src\\Web\\Program.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:44:10.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Application.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "src\\Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Application\\Application.csproj",
-              "RelativeToolTip": "src\\Application\\Application.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-05T17:22:29.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Seller.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Seller.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Seller.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Seller.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Seller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T17:20:23.424Z"
->>>>>>> 19dd4fb653abb829de8e07f40e1dce147fc23542
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-<<<<<<< HEAD
               "Title": "Sale.cs",
               "DocumentMoniker": "D:\\Santi\\FACULTAD\\2do A\u00D1O\\Cuatrimestre 1\\PROGRAMACION 3\\TPI\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Sale.cs",
               "RelativeDocumentMoniker": "src\\Domain\\Entities\\Sale.cs",
@@ -531,30 +92,7 @@
               "RelativeToolTip": "src\\Domain\\Entities\\Sale.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T02:55:33.445Z",
-              "EditorCaption": ""
-=======
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "src\\Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "src\\Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T17:19:32.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
-              "RelativeDocumentMoniker": "src\\Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\WebApiMate\\TP-PROG3-WEBAPIMATE\\src\\Domain\\Domain.csproj",
-              "RelativeToolTip": "src\\Domain\\Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-05T17:18:56.406Z"
->>>>>>> 19dd4fb653abb829de8e07f40e1dce147fc23542
+              "WhenOpened": "2024-06-24T02:55:33.445Z"
             }
           ]
         }
